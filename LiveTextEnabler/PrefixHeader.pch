@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  LiveTextEnabler
+//
+//  Created by Thatchapon Unprasert on 12/7/2564 BE.
+//
+//
+
+#ifndef LiveTextEnabler_PrefixHeader_pch
+#define LiveTextEnabler_PrefixHeader_pch
+
+#import <Cocoa/Cocoa.h>
+#import "ZKSwizzle.h"
+
+#endif
+

@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A51604E026A145AC00792A3E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A51604DF26A145AC00792A3E /* Info.plist */; };
+		A591B5B6269C061F0017940C /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591B5B5269C061F0017940C /* AppKit.framework */; };
+		A591B5B8269C061F0017940C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591B5B7269C061F0017940C /* Foundation.framework */; };
+		A591B5BF269C061F0017940C /* LiveTextEnabler.m in Sources */ = {isa = PBXBuildFile; fileRef = A591B5BE269C061F0017940C /* LiveTextEnabler.m */; };
+		A591B5C3269C061F0017940C /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A591B5C2269C061F0017940C /* ZKSwizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A51604DE26A145AC00792A3E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A51604DF26A145AC00792A3E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A591B5B2269C061F0017940C /* LiveTextEnabler.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveTextEnabler.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A591B5B5269C061F0017940C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		A591B5B7269C061F0017940C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		A591B5BE269C061F0017940C /* LiveTextEnabler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveTextEnabler.m; sourceTree = "<group>"; };
+		A591B5C1269C061F0017940C /* ZKSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		A591B5C2269C061F0017940C /* ZKSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A591B5AF269C061F0017940C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A591B5B6269C061F0017940C /* AppKit.framework in Frameworks */,
+				A591B5B8269C061F0017940C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A591B5A9269C061F0017940C = {
+			isa = PBXGroup;
+			children = (
+				A591B5B9269C061F0017940C /* LiveTextEnabler */,
+				A591B5B4269C061F0017940C /* Frameworks */,
+				A591B5B3269C061F0017940C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A591B5B3269C061F0017940C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A591B5B2269C061F0017940C /* LiveTextEnabler.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A591B5B4269C061F0017940C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A591B5B5269C061F0017940C /* AppKit.framework */,
+				A591B5B7269C061F0017940C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A591B5B9269C061F0017940C /* LiveTextEnabler */ = {
+			isa = PBXGroup;
+			children = (
+				A51604DF26A145AC00792A3E /* Info.plist */,
+				A51604DE26A145AC00792A3E /* PrefixHeader.pch */,
+				A591B5BE269C061F0017940C /* LiveTextEnabler.m */,
+				A591B5C0269C061F0017940C /* ZKSwizzle */,
+			);
+			path = LiveTextEnabler;
+			sourceTree = "<group>";
+		};
+		A591B5C0269C061F0017940C /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				A591B5C1269C061F0017940C /* ZKSwizzle.h */,
+				A591B5C2269C061F0017940C /* ZKSwizzle.m */,
+			);
+			path = ZKSwizzle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A591B5B1269C061F0017940C /* LiveTextEnabler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A591B5C8269C061F0017940C /* Build configuration list for PBXNativeTarget "LiveTextEnabler" */;
+			buildPhases = (
+				A591B5AE269C061F0017940C /* Sources */,
+				A591B5AF269C061F0017940C /* Frameworks */,
+				A591B5B0269C061F0017940C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveTextEnabler;
+			productName = LiveTextEnabler;
+			productReference = A591B5B2269C061F0017940C /* LiveTextEnabler.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A591B5AA269C061F0017940C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A591B5B1269C061F0017940C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = A591B5AD269C061F0017940C /* Build configuration list for PBXProject "LiveTextEnabler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A591B5A9269C061F0017940C;
+			productRefGroup = A591B5B3269C061F0017940C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A591B5B1269C061F0017940C /* LiveTextEnabler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A591B5B0269C061F0017940C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51604E026A145AC00792A3E /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A591B5AE269C061F0017940C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A591B5BF269C061F0017940C /* LiveTextEnabler.m in Sources */,
+				A591B5C3269C061F0017940C /* ZKSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A591B5C6269C061F0017940C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		A591B5C7269C061F0017940C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		A591B5C9269C061F0017940C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = HWW5CTH5AN;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiveTextEnabler/PrefixHeader.pch;
+				INFOPLIST_FILE = LiveTextEnabler/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.LiveTextEnabler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A591B5CA269C061F0017940C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = HWW5CTH5AN;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiveTextEnabler/PrefixHeader.pch;
+				INFOPLIST_FILE = LiveTextEnabler/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.LiveTextEnabler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A591B5AD269C061F0017940C /* Build configuration list for PBXProject "LiveTextEnabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A591B5C6269C061F0017940C /* Debug */,
+				A591B5C7269C061F0017940C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A591B5C8269C061F0017940C /* Build configuration list for PBXNativeTarget "LiveTextEnabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A591B5C9269C061F0017940C /* Debug */,
+				A591B5CA269C061F0017940C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A591B5AA269C061F0017940C /* Project object */;
+}
