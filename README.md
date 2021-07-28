@@ -4,4 +4,4 @@ A [MacForge](https://github.com/MacEnhance/MacForge) plugin that enables Live Te
 
 # Compatibility
 
-macOS Monterey 12.0 beta 2 and higher.
+macOS Monterey 12.0 beta 2 and beta 3. Apple added native support to Intel-based Mac computers in beta 4.
